@@ -1,0 +1,87 @@
+
+html{
+	margin:0px;
+	padding: 0px;
+
+}
+body{
+	background-image: url("back.jpg");
+	background-color: #ded9d3;
+	background-size: cover;
+	
+}
+a{
+	color: black;
+}
+a:hover{
+	color:#343a40;
+	text-decoration: none;
+}
+.header{
+	justify-content: space-between;
+	margin: 0 5% 0 5%;
+}
+.right{
+	float:right;
+
+}
+.left{
+	float: left;
+}
+
+.logo{
+	font-size: 48px;
+}
+.nome{
+	font-family: 'Amatic SC', cursive;
+}
+.txt{
+	margin-top: 1%;
+	font-size: 24px;
+	
+	}
+.txt a{
+	padding: 0 5px 0 5px;
+
+}
+.link{
+	color:#007bff
+
+}
+.main{
+	padding: 10%;
+	margin: auto;
+	font-size: 30px;
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;	
+}
+.main p{
+	border-radius: 3%;
+	background-color: rgba(211,211,211,0.3);
+	padding: 2% 2% 2% 2%;
+}
+.pag{
+	display: flex;
+}
+.esquerda{
+	flex:35%;
+	padding-top: 15px;
+}
+.esquerda input{
+	margin-bottom: 16px;
+}
+.direita {
+	flex: 65%;
+	padding: 15px;
+}
+
+.receitas{
+	list-style-type: none;
+	padding: 0;
+ 	margin: 0;
+}
+.receitas li p:hover{
+	background-color: rgba(211,211,211,0.5);
+	cursor: pointer;
+
+}
